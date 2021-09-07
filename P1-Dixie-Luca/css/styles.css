@@ -1,0 +1,74 @@
+/* natural box model */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*
+    UTILITIES
+*/
+
+/* hides an element, but not from screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* no break */
+.nobr {
+    white-space: nowrap;
+}
+
+/*
+    STRUCTURE
+    Set a background color
+*/
+
+.container {
+    width: 650px;
+    margin: 35px auto; /* centers the container */
+    border: 1px solid black;
+    padding: 50px;
+    background-color: white;
+}
+
+/*
+    TYPOGRAPHY
+    https://www.thoughtco.com/web-safe-font-stacks-3467429
+    Set a default font for all text-containing HTML elements
+*/
+
+/*
+    IMAGES
+    You need to place AT LEAST two images in your HTML
+    And 1+ of them needs to be styled using figure / img / figcaption
+*/
+img {
+    width: 100%;
+    display: block;
+}
+
+/* clearfix - in case you decide to float elements */
+.group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
+    LINKS
+*/
+
+
+
+/*
+    TABLES
+*/
