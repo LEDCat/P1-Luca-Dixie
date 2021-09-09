@@ -72,3 +72,8 @@ img {
 /*
     TABLES
 */
+
+.table {
+    border: 2px solid black;
+    table-layout: fixed;
+}
