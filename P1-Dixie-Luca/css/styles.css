@@ -40,6 +40,10 @@ html {
     background-color: white;
 }
 
+li {
+    margin-bottom: 20px;
+}
+
 /*
     TYPOGRAPHY
     https://www.thoughtco.com/web-safe-font-stacks-3467429
@@ -67,7 +71,21 @@ img {
     LINKS
 */
 
+a:link {
+    color: salmon;
+}
 
+a:visited {
+    color: hotpink;
+}
+
+a:hover {
+    color: lightpink;
+}
+
+a:active {
+    color: blue;
+}
 
 /*
     TABLES
