@@ -35,7 +35,6 @@ html {
 .container {
     width: 800px;
     margin: 35px auto; /* centers the container */
-    border: 1px solid black;
     padding: 50px;
     background-color: white;
 }
