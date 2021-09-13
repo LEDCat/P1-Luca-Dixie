@@ -58,6 +58,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.center {
+    text-align: center;
+}
+
 /*
     IMAGES
     You need to place AT LEAST two images in your HTML
