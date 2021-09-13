@@ -33,10 +33,11 @@ html {
 */
 
 .container {
-    width: 800px;
+    width: 750px;
     margin: 35px auto; /* centers the container */
     padding: 50px;
     background-color: white;
+    border: 1px solid black;
 }
 
 li {
@@ -65,6 +66,11 @@ body {
 img {
     width: 100%;
     display: block;
+}
+
+body {
+    background-image: url(/images/shrimp-pattern-mazki-590.jpg);
+    background-repeat: repeat;
 }
 
 /* clearfix - in case you decide to float elements */
