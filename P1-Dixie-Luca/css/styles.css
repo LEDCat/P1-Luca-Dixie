@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-h3 {
+h2 {
     text-decoration: underline;
 }
 
@@ -76,6 +76,12 @@ img {
     display: block;
 }
 
+figcaption {
+    font-style: italic;
+    padding: 10px;
+}
+
+/* image credit: envatomarket */
 body {
     background-image: url(/images/shrimp-pattern-mazki-590.jpg);
     background-repeat: repeat;
